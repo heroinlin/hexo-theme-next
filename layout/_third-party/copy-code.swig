@@ -31,7 +31,6 @@
         selection.removeAllRanges();
         selection.addRange(selected);
       }
-      document.body.removeChild(ta);
     })).on('mouseleave', function(e) {
       var $b = $(this).find('.copy-btn');
       setTimeout(function() {
